@@ -5,5 +5,6 @@
 cmake_minimum_required(VERSION 3.5)
 
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
-set(EXTRA_COMPONENT_DIRS "/component")
-project(example)
+set(EXTRA_COMPONENT_DIRS "esp-idf-lib/components/")
+set(COMPONENTS "main")
+project(led_matrix)
